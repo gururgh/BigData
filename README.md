@@ -9,4 +9,3 @@
 ## 
 
 
-Este proyecto tiene como proposito ofrecer las ventajas del famoso he inovador sistema de reconocimiento facial el cual por medio de capturas al rostro es capaz de identificar a un usuario para permitir o denegar el accesso
