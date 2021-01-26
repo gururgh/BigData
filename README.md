@@ -6,7 +6,7 @@
 
 # 5 V´s
 
-## + Variedad:
+## + Variedad: Nuestro proyecto procesara datos como luminosidad, distancia y la llave de acceso (Cara del usuario), todo lo anterior sera validado y en dado caso enviado a la Base de Datos 
 
 
 ## + Velocidad:
