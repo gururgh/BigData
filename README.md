@@ -30,5 +30,6 @@
 #### -Abierto: cuando la luminosidad es baja y la distancia mayor a 1 metro.
 #### -Abierto: cuando la luminosidad es alta y la distancia mayor a 1 metro.
 
+### La base de datos puede ser consultada, para ser su visualización en las gráficas requeridas.
 
 
