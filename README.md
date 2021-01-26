@@ -30,12 +30,12 @@
 #### -Abierto: cuando la luminosidad es baja y la distancia mayor a 1 metro.
 #### -Abierto: cuando la luminosidad es alta y la distancia mayor a 1 metro.
 
-El stream capturado de la cámara realizará un verificacion del rostro “leído”, dependiendo de si este se reconoce o no, el relevador estará en alguno de los siguientes estados:
+### El stream capturado de la cámara realizará un verificacion del rostro “leído”, dependiendo de si este se reconoce o no, el relevador estará en alguno de los siguientes estados:
 
--Cerrado: cuando la cara ha sido reconocida por el sistema.
--Abierto: cuando la cara no ha sido reconocida. 
+#### -Cerrado: cuando la cara ha sido reconocida por el sistema.
+#### -Abierto: cuando la cara no ha sido reconocida. 
 
-La información recolectada por los sensores será recolectada, concatenada y enviada en formato JSON a nuestra API, la cual guardará la información en la base de datos de nuestra página WEB.
+### La información recolectada por los sensores será recolectada, concatenada y enviada en formato JSON a nuestra API, la cual guardará la información en la base de datos de nuestra página WEB.
 
 
 ### La base de datos puede ser consultada, para ser su visualización en las gráficas requeridas.
@@ -43,24 +43,23 @@ La información recolectada por los sensores será recolectada, concatenada y en
 # 5 V´s
 
 ## + Variedad: 
-Nuestro proyecto procesa datos como luminosidad, distancia y la llave de acceso (Cara del usuario), todo lo anterior será validado y en dado caso enviado a la Base de Datos.
+### Nuestro proyecto procesa datos como luminosidad, distancia y la llave de acceso (Cara del usuario), todo lo anterior será validado y en dado caso enviado a la Base de Datos.
+
 ## + Velocidad:
- 
-Nuestro proyecto es muy eficiente en cuanto la captura de rostros, captura el rostro un número determinado de veces  y permite o niega el acceso. 
+### Nuestro proyecto es muy eficiente en cuanto la captura de rostros, captura el rostro un número determinado de veces  y permite o niega el acceso. 
 
 ## + Volumen:
-
-En cuanto al volumen es determinado por el número de usuarios e imágenes de usuario  ya que contiene 5 capturas variadas del rostro y permite a un número indefinido de usuarios.
+### En cuanto al volumen es determinado por el número de usuarios e imágenes de usuario  ya que contiene 5 capturas variadas del rostro y permite a un número indefinido de usuarios.
 
 ## + Veracidad:
 
- El stream de nuestra cámara se analiza y se verifica antes de permitir el acceso, la imagen del rostro del usuario es comparada con los rostros previamente agregados, para minimizar la transferencia de información innecesaria.
+ ### El stream de nuestra cámara se analiza y se verifica antes de permitir el acceso, la imagen del rostro del usuario es comparada con los rostros previamente agregados, para minimizar la transferencia de información innecesaria.
 
 
 
 ## + Valor: 
 
-## Los datos que más relevancia tienen son los de acceso, ya que estos son los que nos pueden ayudar a monitorear los accesos o intentos de accesos a determinadas áreas.
+### Los datos que más relevancia tienen son los de acceso, ya que estos son los que nos pueden ayudar a monitorear los accesos o intentos de accesos a determinadas áreas.
 
 
 # Diagrama ETL
