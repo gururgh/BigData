@@ -30,7 +30,14 @@
 #### -Abierto: cuando la luminosidad es baja y la distancia mayor a 1 metro.
 #### -Abierto: cuando la luminosidad es alta y la distancia mayor a 1 metro.
 
-### La base de datos puede ser consultada, para ser su visualización en las gráficas requeridas.
+El stream capturado de la cámara realizará un verificacion del rostro “leído”, dependiendo de si este se reconoce o no, el relevador estará en alguno de los siguientes estados:
 
+-Cerrado: cuando la cara ha sido reconocida por el sistema.
+-Abierto: cuando la cara no ha sido reconocida. 
+
+La información recolectada por los sensores será recolectada, concatenada y enviada en formato JSON a nuestra API, la cual guardará la información en la base de datos de nuestra página WEB.
+
+
+### La base de datos puede ser consultada, para ser su visualización en las gráficas requeridas.
 
 
