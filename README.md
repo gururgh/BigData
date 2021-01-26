@@ -40,4 +40,7 @@ La información recolectada por los sensores será recolectada, concatenada y en
 
 ### La base de datos puede ser consultada, para ser su visualización en las gráficas requeridas.
 
+# 5 V´s
+
+## + Variedad: Nuestro proyecto procesa datos como luminosidad, distancia y la llave de acceso (Cara del usuario), todo lo anterior será validado y en dado caso enviado a la Base de Datos.
 
