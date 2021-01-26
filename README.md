@@ -19,3 +19,15 @@
 
 ### En el caso de la luminosidad, se leerá el valor de luminosidad del sensor y se enviará al NodemCU, para ser comparado con el valor de la distancia.
 
+### Para la cámara, se mandará un stream de video, el cual será “monitoreado” por el ESP32CAM en busca de caras conocidas/desconocidas.
+
+### El sensor ultrasónico, nos ayudará para calcular la distancia del usuario a nuestro dispositivo, esta distancia se enviará al NodemCU para comparar con el valor de distancia.
+
+###Una vez recolectada la información del sensor de luminosidad y el ultrasónico, el relevador encargado de controlar el encendido de las luces puede estar en los siguientes estados.
+
+#### -Cerrado: cuando la luminosidad es muy baja y la distancia es menor a 1 metro.
+#### -Abierto: cuando la luminosidad es alta y la distancia menor a 1 metro.
+#### -Abierto: cuando la luminosidad es baja y la distancia mayor a 1 metro.
+#### -Abierto: cuando la luminosidad es alta y la distancia mayor a 1 metro.
+
+
