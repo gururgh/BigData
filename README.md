@@ -65,4 +65,5 @@ En cuanto al volumen es determinado por el número de usuarios e imágenes de us
 
 # Diagrama ETL
 ## + Extracción: Obtendremos información de nuestros sensores, en nuestro caso, nos servirán los sensores de distancia y luminosidad, al igual que obtendremos del stream de la cámara la cara del usuario que funcionará como llave de acceso.
+## + Transformación: Al obtener los datos de la luminosidad, la distancia y el rostro del usuario, estos son transformados en una señal, esta señal activara un LED de color verde si cumplen con los requisitos necesarios, permitiendole el acceso al usuario, si no, activará un LED rojo, dando a entender que nego el acceso.
 
