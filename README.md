@@ -51,4 +51,13 @@ Nuestro proyecto es muy eficiente en cuanto la captura de rostros, captura el ro
 
 En cuanto al volumen es determinado por el número de usuarios e imágenes de usuario  ya que contiene 5 capturas variadas del rostro y permite a un número indefinido de usuarios.
 
+## + Veracidad:
+
+ El stream de nuestra cámara se analiza y se verifica antes de permitir el acceso, la imagen del rostro del usuario es comparada con los rostros previamente agregados, para minimizar la transferencia de información innecesaria.
+
+
+
+## + Valor: 
+
+## Los datos que más relevancia tienen son los de acceso, ya que estos son los que nos pueden ayudar a monitorear los accesos o intentos de accesos a determinadas áreas.
 
