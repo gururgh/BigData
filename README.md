@@ -23,7 +23,7 @@
 
 ### El sensor ultrasónico, nos ayudará para calcular la distancia del usuario a nuestro dispositivo, esta distancia se enviará al NodemCU para comparar con el valor de distancia.
 
-###Una vez recolectada la información del sensor de luminosidad y el ultrasónico, el relevador encargado de controlar el encendido de las luces puede estar en los siguientes estados.
+### Una vez recolectada la información del sensor de luminosidad y el ultrasónico, el relevador encargado de controlar el encendido de las luces puede estar en los siguientes estados.
 
 #### -Cerrado: cuando la luminosidad es muy baja y la distancia es menor a 1 metro.
 #### -Abierto: cuando la luminosidad es alta y la distancia menor a 1 metro.
