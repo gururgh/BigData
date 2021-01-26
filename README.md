@@ -43,4 +43,12 @@ La información recolectada por los sensores será recolectada, concatenada y en
 # 5 V´s
 
 ## + Variedad: Nuestro proyecto procesa datos como luminosidad, distancia y la llave de acceso (Cara del usuario), todo lo anterior será validado y en dado caso enviado a la Base de Datos.
+## + Velocidad:
+ 
+Nuestro proyecto es muy eficiente en cuanto la captura de rostros, captura el rostro un número determinado de veces  y permite o niega el acceso. 
+
+## + Volumen:
+
+En cuanto al volumen es determinado por el número de usuarios e imágenes de usuario  ya que contiene 5 capturas variadas del rostro y permite a un número indefinido de usuarios.
+
 
