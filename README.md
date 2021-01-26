@@ -31,3 +31,4 @@
 #### -Abierto: cuando la luminosidad es alta y la distancia mayor a 1 metro.
 
 
+
