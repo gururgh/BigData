@@ -68,4 +68,5 @@
 
 ### + Load (carga): Esta señal lo que hace es permitir o negar el acceso del usuario, abriendo o manteniendo cerrada la cerradura de la puerta, al igual que el dato de la luminosidad es enviada a una API en la cual se graficara para que el administrador de la página pueda llevar un control de ello, al igual que el usuario es guardado en la base de datos.
 
-![image](https://user-images.githubusercontent.com/78035963/111945010-8245a400-8a9e-11eb-95aa-5ddcf9a3ea91.png)
+![image](https://user-images.githubusercontent.com/78035963/111945695-c1c0c000-8a9f-11eb-891e-24eda9f325de.png)
+
