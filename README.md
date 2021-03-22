@@ -1,6 +1,6 @@
-# BigData
+# Big-Data
 
-# Acceso mediante reconocimiento facial.
+# Acceso Mediante Reconocimiento Facial.
 
 ### Cool Matú Miguel Alejandro.
 ### Gurubel Romero Javier Jeremias.
